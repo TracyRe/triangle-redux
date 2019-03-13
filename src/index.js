@@ -50,5 +50,6 @@ $(document).ready(function(){
     $("input#sideA").val("");
     $("input#sideB").val("");
     $("input#sideC").val("");
+    $(".response-wrapper").hide();
   });
 });
