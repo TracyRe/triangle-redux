@@ -5,6 +5,7 @@ export class Triangle {
   this.sideC = sideC;
   }
 
+
   checkTriangle() {
     if ( ((this.sideA + this.sideB) < this.sideC) || ((this.sideB + this.sideC) < this.sideA) || ((this.sideA + this.sideC) < this.sideB) )
       {
